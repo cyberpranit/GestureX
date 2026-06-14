@@ -1,0 +1,41 @@
+{
+    "theme": "Minimal Theme",
+    "modules": {
+        "Volume Control": {
+            "enabled": true
+        },
+        "Brightness Control": {
+            "enabled": false
+        },
+        "Screenshot Gesture": {
+            "enabled": true
+        },
+        "Air Mouse": {
+            "enabled": false
+        },
+        "Media Controls": {
+            "enabled": false
+        },
+        "Application Launcher": {
+            "enabled": false
+        },
+        "Presentation Mode": {
+            "enabled": true
+        },
+        "Gaming Mode": {
+            "enabled": false
+        },
+        "Voice Assistant": {
+            "enabled": true
+        },
+        "Air Writing": {
+            "enabled": false
+        },
+        "Security Module": {
+            "enabled": false
+        },
+        "System Information Overlay": {
+            "enabled": false
+        }
+    }
+}

@@ -1,0 +1,8 @@
+PyQt6>=6.4.0
+opencv-python>=4.7.0.72
+mediapipe>=0.10.0
+pyautogui>=0.9.54
+psutil>=5.9.4
+pycaw>=20181106
+screen-brightness-control>=0.2.1
+SpeechRecognition>=3.10.0

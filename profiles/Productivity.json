@@ -1,0 +1,41 @@
+{
+    "theme": "Matrix Theme",
+    "modules": {
+        "Volume Control": {
+            "enabled": true
+        },
+        "Brightness Control": {
+            "enabled": true
+        },
+        "Screenshot Gesture": {
+            "enabled": true
+        },
+        "Air Mouse": {
+            "enabled": true
+        },
+        "Media Controls": {
+            "enabled": true
+        },
+        "Application Launcher": {
+            "enabled": true
+        },
+        "Presentation Mode": {
+            "enabled": false
+        },
+        "Gaming Mode": {
+            "enabled": false
+        },
+        "Voice Assistant": {
+            "enabled": false
+        },
+        "Air Writing": {
+            "enabled": true
+        },
+        "Security Module": {
+            "enabled": true
+        },
+        "System Information Overlay": {
+            "enabled": true
+        }
+    }
+}

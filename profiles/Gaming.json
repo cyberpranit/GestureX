@@ -1,0 +1,41 @@
+{
+    "theme": "Cyberpunk Theme",
+    "modules": {
+        "Volume Control": {
+            "enabled": true
+        },
+        "Brightness Control": {
+            "enabled": false
+        },
+        "Screenshot Gesture": {
+            "enabled": true
+        },
+        "Air Mouse": {
+            "enabled": false
+        },
+        "Media Controls": {
+            "enabled": false
+        },
+        "Application Launcher": {
+            "enabled": false
+        },
+        "Presentation Mode": {
+            "enabled": false
+        },
+        "Gaming Mode": {
+            "enabled": true
+        },
+        "Voice Assistant": {
+            "enabled": false
+        },
+        "Air Writing": {
+            "enabled": false
+        },
+        "Security Module": {
+            "enabled": false
+        },
+        "System Information Overlay": {
+            "enabled": true
+        }
+    }
+}

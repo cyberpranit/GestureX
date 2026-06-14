@@ -1,0 +1,35 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MediaPipe Task Models
+core/*.task
+*.task
+
+# Local Settings and App Data
+settings/settings.json
+settings/settings_test.json
+
+# User Outputs & Logs
+logs/
+screenshots/
+artifacts/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
