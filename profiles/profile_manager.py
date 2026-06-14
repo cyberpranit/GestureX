@@ -8,7 +8,8 @@ class ProfileManager:
     def __init__(self, config_manager, profiles_dir=None):
         self.config_manager = config_manager
         if profiles_dir is None:
-            self.profiles_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "profiles")
+            from utils.paths import get_user_data_dir
+            self.profiles_dir = os.path.join(get_user_data_dir(), "profiles")
         else:
             self.profiles_dir = profiles_dir
             

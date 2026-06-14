@@ -77,7 +77,8 @@ class ConfigManager:
     def __init__(self, filepath=None):
         if filepath is None:
             # Put in the workspace path or next to application
-            self.filepath = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "settings", "settings.json")
+            from utils.paths import get_user_data_dir
+            self.filepath = os.path.join(get_user_data_dir(), "settings", "settings.json")
         else:
             self.filepath = filepath
             

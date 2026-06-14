@@ -155,10 +155,9 @@ class SecurityModule(GestureModule):
     def capture_intruder(self, frame):
         try:
             import cv2
+            from utils.paths import get_screenshot_dir
             base_folder = self.config_manager.Get("screenshot_folder", "screenshots")
-            if not os.path.isabs(base_folder):
-                project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-                base_folder = os.path.join(project_dir, base_folder)
+            base_folder = get_screenshot_dir(base_folder)
                 
             intruder_dir = os.path.join(base_folder, "intruders")
             os.makedirs(intruder_dir, exist_ok=True)

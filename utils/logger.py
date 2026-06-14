@@ -1,11 +1,11 @@
 import os
 import logging
 import sys
+from utils.paths import get_user_data_dir
 
 def SetupLogger():
     # Define log directory
-    project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    log_dir = os.path.join(project_dir, "logs")
+    log_dir = os.path.join(get_user_data_dir(), "logs")
     os.makedirs(log_dir, exist_ok=True)
     
     log_file = os.path.join(log_dir, "gesturex.log")
